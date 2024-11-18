@@ -13,6 +13,26 @@
 
 /* Form Layout Styles */
 
+form#survey{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+form#survey>fieldset{
+    flex: 1 1 300px;
+}
+
+fieldset{
+    display:flex;
+    flex-flow:row wrap;
+}
+
+fieldset div.formRow{
+    display: flex;
+    flex-flow: row wrap;
+    flex:1 1 300px;
+}
+
 
 
 /* Legend Styles */
