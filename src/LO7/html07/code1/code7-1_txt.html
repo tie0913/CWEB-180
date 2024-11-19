@@ -12,11 +12,29 @@
    -->
    <meta charset="utf-8">
    <title>Coding Challenge 7-1</title>
-
+   <link href="code7-1_forms.css" rel="stylesheet"/>
 </head>
 <body>
    <h1>Enter User Account</h1>
+   <form action="login-script.php" method="post">
+   <fieldset>
+      <legend>Enter Account Information</legend>
+      <label for="acctype">Account Type</label>
+      <select id="acctype"  name="accounttype" multiple>
+         <option value="type1">administrator</option>
+         <option value="type2">member</option>
+         <option value="type3">guest</option>
+      </select>
 
+
+      <label for="username">Username</label>
+      <input type="text" id="username" name="user"/>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="pwd"/>
+   </fieldset>
+      <input type="submit" text="Login">
+   </form>
 
 </body>
 </html>
