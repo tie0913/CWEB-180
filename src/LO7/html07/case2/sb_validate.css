@@ -18,9 +18,15 @@ input:not[type="radio"]{
 }
 
 input:focus:valid:not[type="radio"]{
-    background: rgb(215, 255, 215) url("sb_valid.png") no-repeat right ;
+    background-color: rgb(215, 255, 215);
+    background-image: url("sb_valid.png");
+    background-repeat: no-repeat;
+    background-position: right ;
 }
 
 input:focus:invalid:not[type="radio"]{
-    background: rgb(255, 255, 215) url("sb_invalid.png") no-repeat right ;
+    background-color: rgb(255, 255, 215);
+    background-image: url("sb_invalid.png");
+    background-repeat: no-repeat;
+    background-position: right ;
 }
