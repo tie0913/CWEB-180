@@ -13,20 +13,26 @@
 
 
 /* Validation Styles */
-input:not[type="radio"]{
+input:not[type="radio"]:focus{
     background-color: rgb(255, 218, 165);
 }
 
-input:focus:valid:not[type="radio"]{
+input:not[type="radio"]:focus:valid{
+    /*
     background-color: rgb(215, 255, 215);
     background-image: url("sb_valid.png");
     background-repeat: no-repeat;
     background-position: right ;
+     */
+    background:rgb(215,255,255) url(sb_valid.png) right no-repeat;
 }
 
-input:focus:invalid:not[type="radio"]{
+input:not[type="radio"]:focus:invalid{
+    background:rgb(255,245,215) url(sb_invalid.png) right no-repeat;
+    /*
     background-color: rgb(255, 255, 215);
     background-image: url("sb_invalid.png");
     background-repeat: no-repeat;
     background-position: right ;
+     */
 }
