@@ -1,0 +1,32 @@
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+div{
+    width:100%;
+}
+div#statistics{
+    height:30px;
+    border:2px dashed aqua;
+    background-color: #A8A8A8;
+    box-shadow:inset 1px 1px 1px grey, 1px -1px 1px white;
+}
+div#question{
+    height:200px;
+    border:2px dashed aqua;
+    background-color: #D9D9D9;
+    box-shadow:inset 1px 1px 1px grey, 1px -1px 1px white;
+}
+
+div#options{
+    height:200px;
+    border:2px solid steelblue;
+    background-color: beige;
+    box-shadow:inset 1px 1px 1px grey, 1px -1px 1px white;
+}
+
+input[type=button]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
