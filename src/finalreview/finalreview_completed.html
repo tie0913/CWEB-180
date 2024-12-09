@@ -12,3 +12,65 @@
    <script src="revised_formsubmit.js"></script>
    <link rel="stylesheet" href="styles_completed/finalreview_completed.css">
 </head>
+
+<body>
+ <div class="change">
+  <h1>Something to Amuse you</h1>
+ </div>
+  <video controls>
+    <source src="media/big_buck_bunny.mp4" type="video/mp4">
+    <source src="media/big_buck_bunny.webm" type="video/webm">
+    <track kind="captions" src="media/captions.vtt" default label="Credit"/>
+    <p><em>Upgrade to HTML5!</em></p>
+  </video>
+
+
+
+ <form action="aformprocessor.html" method="get">
+  <fieldset>
+   <legend>Vehicle Crash Report</legend>
+   <input type="submit" value="Submit Report"/>
+   <div class="formRow">
+    <label for="makeBox">Make</label>
+    <input id="makeBox" name="make" value="Dodge" required/>
+   </div>
+   <div class="formRow">
+    <label for="modelBox">Model</label>
+    <input type="text" id="modelBox" name="model" placeholder="Enter your model"  required/>
+   </div>
+   <div class="formRow">
+    <label for="yearBox">Year</label>
+    <input type="number" id="yearBox" name="year" value="2019" max="2020" min="1900" step="1" pattern="^\d{4}$" required/>
+   </div>
+   <div class="formRow">
+    <label for="dateBox">Collision Date</label>
+    <input type="date" id="dateBox" name="date"  required/>
+   </div>
+   <div class="formRow">
+    <label for="timeBox">Time if Day</label>
+    <select id="timeBox" name="time"  required>
+     <option value="">Select a Time</option>
+     <option value="morning">Morining(6am-noon)</option>
+     <option value="afternoon">Afternoon(noon-6pm)</option>
+     <option value="evening">Evening(6pm-midnight)</option>
+     <option value="night">Night(midnight--6am)</option>
+    </select>
+   </div>
+   <div class="formRow">
+    <label>Fault</label>
+    <fieldset>
+     <input name="fault" type="radio" value="m" id="optMine">i.Mine<br>
+     <input name="fault" type="radio" value="t" id="optTheirs">ii. Theirs<br>
+     <input name="fault" type="radio" value="b" id="optBoth">iii.Both<br>
+    </fieldset>
+   </div>
+   <div class="formRow">
+    <label for="detailsBox">Details</label>
+    <textarea id="detailsBox" name="details" maxlength="4000"  required></textarea>
+   </div>
+   <div class="formRow">
+    <input type="checkbox" checked id="acceptBox" name="accepted"  required><label for="acceptBox">I Accept SGI's Authority</label>
+   </div>
+  </fieldset>
+ </form>
+</body>
