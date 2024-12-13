@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student SYSTEM "Student.dtd">
+<student>
+    <name>Tie Wang</name>
+    <courses>
+        <course>
+            <code>CWEB180</code>
+            <name>Web Site Development</name>
+            <registered/>
+        </course>
+        <course>
+            <code>CWEB 190</code>
+            <name>Internet Programming/Web Application</name>
+        </course>
+    </courses>
+</student>

@@ -1,0 +1,9 @@
+
+<!ELEMENT student (name, courses*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT courses (course+)>
+<!ELEMENT course (code, name, registered?)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT registered EMPTY>
+
+
