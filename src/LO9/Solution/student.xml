@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE student SYSTEM "student.dtd">
+<student>
+    <name>your name</name>
+    <course>
+        <courseNumber>CWEB 180</courseNumber>
+        <courseName>Web Site Development</courseName>
+        <registered status="yes" />
+    </course>
+    <course>
+        <courseNumber>CWEB 190</courseNumber>
+        <courseName>Internet Programming/Web Applications 1</courseName>
+        <registered status="no" />
+    </course>
+</student>

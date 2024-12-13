@@ -1,0 +1,8 @@
+<!ELEMENT student (name,course+)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT course (courseNumber,courseName,registered)>
+        <!ELEMENT courseNumber (#PCDATA)>
+        <!ELEMENT courseName (#PCDATA)>
+        <!ELEMENT registered EMPTY>
+        <!ATTLIST registered status CDATA #REQUIRED>
+
