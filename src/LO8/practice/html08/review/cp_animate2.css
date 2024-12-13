@@ -32,13 +32,33 @@ nav#topLinks a:hover{
 
 /* Marquee Styles */
 
-
+div#marquee{
+    position: relative;
+}
+div#marquee table{
+    position: absolute;
+}
 
 
 /* Keyframe Styles */
-  
+
+@keyframes scroll {
+    0%{
+        top:250px;
+    }
+    100%{
+        top:-1300px;
+    }
+}
 
 
 
 /* Animation Styles */
 
+div#marquee table{
+    animation: scroll 50s linear infinite;
+}
+
+div#marquee table:hover{
+    animation-play-state: paused;
+}
