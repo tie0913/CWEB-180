@@ -19,63 +19,12 @@
  *
  * @constructor
  */
-
-Question_Array = [{
-    text:'This is question',
-    type:'single',
-    options:[{
-        text:'answer A',
-        id:'1',
-        correct:'1'
-    },{
-        text:'answer B',
-        id:'2',
-        correct:'0'
-    },{
-        text:"answer C",
-        id:'3',
-        correct:'0'
-    }]
-},{
-    text:'This is another question',
-    type:'multiple',
-    options:[{
-        text:'answer 1',
-        id:'1',
-        correct:'1'
-    },{
-        text:'answer 2',
-        id:'2',
-        correct:'0'
-    },{
-        text:"answer 3",
-        id:'3',
-        correct:'1'
-    }]
-},{
-    text:'This is the 3rd question',
-    type:'single',
-    options:[{
-        text:'answer A',
-        id:'1',
-        correct:'0'
-    },{
-        text:'answer B',
-        id:'2',
-        correct:'1'
-    },{
-        text:"answer C",
-        id:'3',
-        correct:'0'
-    }]
-}]
-
 function Paper(){
     const single = "single";
     const optionNamePrefix = "question_";
     const correct = "1";
 
-    let questionList = Question_Array;
+    let questionList = QuestionList;
     let currentIndex = -1;
     let correctNumber = 0;
 
@@ -149,16 +98,12 @@ function Paper(){
         return errors === 0;
     }
 
-    let refreshAnswers = function(){
-        let answerDiv = document.getElementById("answers");
-        answerDiv.style.display = "none";
-    }
-
     let backupUnCorrectAnswers = function(){
         let questionText = document.getElementById("question").innerHTML
         let optionText = document.getElementById("options").innerHTML;
         let backupHTML = "<div class='backup'><div>" + questionText + "</div><div>" + optionText + "</div></div>";
-        document.getElementById("answers").innerHTML += backupHTML;
+        let originHTML = document.getElementById("answers").innerHTML;
+        document.getElementById("answers").innerHTML = backupHTML + originHTML;
     }
 
     this.startNewRound = function(){
@@ -167,9 +112,7 @@ function Paper(){
         correctNumber = 0;
         refreshStatistics();
         nextQuestion();
-        refreshAnswers();
         document.getElementById("answers").innerHTML = "";
-        document.getElementById("answers").style.display = "none";
     }
 
     this.next = function(){
@@ -178,21 +121,18 @@ function Paper(){
             currentIndex = -1;
             return;
         }
+        this.checkAnswer();
         if(judging()){
             correctNumber++;
         }else{
-            this.checkAnswer();
             backupUnCorrectAnswers();
         }
 
-
         refreshStatistics();
-
         if(currentIndex < questionList.length){
             nextQuestion();
         }else{
             alert("You have done one round, well done!")
-            document.getElementById("answers").style.display = "block";
             currentIndex = -1;
         }
     }
