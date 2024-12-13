@@ -1,0 +1,49 @@
+Q:What happens during a TLS handshake?
+O:The client and server negotiate network congestion management.
+O:The server and client agree on a data compression method.
+OR:The server provides its digital certificate to the client for authentication.
+O:The server's processing load is reduced.
+
+Q:What is it called when a system's clock begins to be off by a few seconds or even minutes?
+O:Dispersion
+O:Slew
+O:Slam
+OR:Time drift
+
+Q:What can happen if a server or host is configured with the incorrect time?
+O:It will automatically correct itself without NTP
+O:It can lead to increased network speed
+O:It will increase the security of network communications
+OR:It may not be able to access network services
+
+Q:You are the network administrator for a small consulting firm. You've set up an NTP server to manage the time across all the machines in the network.
+Q:You have a computer that's experiencing a slight time drift of just a few seconds.
+Q:Which time correction should you use to fix the system's clock?
+O:Skew
+OR:Slew
+O:Slam
+O:Jitter
+
+Q:Which of the following time standards does NTP use?
+QR:UTC
+O:PDT
+O:CDT
+O:EDT
+
+Q:What role does a grandmaster clock play in a PTP domain?
+O:It serves as the primary network router.
+OR:It is the authoritative time source.
+O:It synchronizes directly with satellite clocks.
+O:It acts as the primary backup time source.
+
+Q::PTP can be deployed as a layer 3 protocol over IP. What is a limitation of this deployment?
+O:It requires additional satellite synchronization.
+OR:It cannot achieve the same accuracy as layer 2 implementations.
+O:It is incompatible with most network adapters.
+O:It increases the network bandwidth usage significantly.
+
+Q:What is the main advantage of Precision Time Protocol (PTP) over Network Time Protocol (NTP)?
+O:PTP supports more network services.
+OR:PTP provides nanosecond precision.
+O:PTP uses less network bandwidth.
+O:PTP is easier to implement.
