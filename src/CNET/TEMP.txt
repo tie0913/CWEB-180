@@ -1,3 +1,16 @@
+Q:You are setting up a secure website for your online store. You want to ensure that all data transmitted between your website and your customers is encrypted.
+Q:Which of the following steps is essential for you to achieve this?
+O:Install a web analytics tool.
+OR:Obtain and install a digital certificate.
+O:Increase your website's bandwidth.
+O:Implement a CAPTCHA system on your website.
+
+Q:What is established between a server and a client after successful authentication with TLS?
+O:A direct physical connection
+O:A public network
+O:A data compression protocol
+OR:An encrypted tunnel
+
 Q:What happens during a TLS handshake?
 O:The client and server negotiate network congestion management.
 O:The server and client agree on a data compression method.
@@ -47,3 +60,1463 @@ O:PTP supports more network services.
 OR:PTP provides nanosecond precision.
 O:PTP uses less network bandwidth.
 O:PTP is easier to implement.
+
+Q:What does the term "stateless protocol" imply about HTTP?
+O:The server requires authentication for every request.
+OR:Each request from a client to a server is treated as a new request.
+O:The server stores data in a centralized database for all requests.
+O:The server retains information about client requests indefinitely
+
+Q:What feature does version 2 of HTTP add to enhance its functionality?
+O:Increased encryption
+OR:More state-preserving features
+O:Improved FTP support
+O:Faster email transmission
+
+Q:What does a client use to identify the resource it wants to request from an HTTP server?
+OR:Uniform Resource Locator (URL)
+O:MAC address
+O:IP address
+O:Port number
+
+Q:Which TCP port does HTTPS encrypted traffic default to?
+O:8080
+O:80
+O:21
+OR:443
+
+Q:Which of the following is a limitation of active FTP mode regarding firewalls?
+O:It requires HTTPS for data transfer.
+OR:It can cause configuration problems due to unpredictable port usage.
+O:It encrypts the data transfer by default.
+O:It only works with TCP port 22.
+
+Q:What is the primary purpose of the File Transfer Protocol (FTP)?
+O:To stream video content
+OR:To transfer files between a client and server
+O: send email messages
+O:To encrypt web traffic
+
+Q:Why might TFTP not be suitable for transferring large files?
+OR:It operates over UDP, which does not guarantee delivery.
+O:It requires manual confirmation for each packet.
+O:It only works within local networks.
+O:It encrypts the data, causing overhead.
+
+Q:Why is FTPES usually preferred over FTPS?
+O:FTPES uses stronger encryption than FTPS.
+OR:FTPES is easier to configure with firewalls.
+O:FTPES supports larger file transfers.
+O:FTPES is faster than FTPS.
+
+Q:In the context of FTP over Explicit TLS (FTPES), which command is used to encrypt the data connection
+Q:for actual file transfers after upgrading an unsecure connection to a secure one?
+O:PASV
+O:SSH
+OR:PROT
+O:AUTH TLS
+
+Q:Which protocol is typically used for copy or backup operations on a NAS appliance?
+O:SMTP
+OR:SMB or FTP
+O:SNMP
+O:HTTP
+
+Q:Why is SMB1 now disabled by default on current Windows versions?
+O:It is too slow.
+O:It does not support printing services.
+O:It does not support encryption.
+OR:It has very serious security vulnerabilities.
+
+Q:Which version of SMB supports message encryption?
+O:SMB2
+O:SMB1
+OR:SMB3
+O:All versions
+
+Q:Which operating system is typically used by NAS appliances?
+O:MacOS
+O:iOS
+O:Windows
+OR:Linux-based
+
+Q:What is the primary function of a database?
+O:To serve as a graphical user interface for data management
+OR:To provision information in a format that can be read and updated
+O:To store data in a static format that cannot be updated
+O:To encrypt data using transport layer security
+
+Q:What is the purpose of using TLS transport encryption in databases?
+OR:To secure data transmission over the network
+O:To synchronize data between servers
+O:To increase data storage capacity
+O:To improve the graphical user interface
+
+Q:What does SMTP use to discover the IP address of the recipient's SMTP server?
+O:The sender's IP address
+O:The recipient's physical address
+OR:The domain name part of the recipient's email address
+O:The recipient's email password
+
+Q:What is the purpose of the STARTTLS command in SMTP?
+O:To create a new email account
+O:To encrypt the entire email message content
+O:To downgrade the connection to an unsecure state
+OR:To upgrade an existing unsecure connection to use TLS
+
+Q:What is one of the primary purposes of the Internet Message Access Protocol (IMAP)?
+O:To encrypt email messages
+O:To deliver email to hosts that are permanently available
+OR:To manage a mailbox on a server
+O:To connect to web servers
+
+Q:In a Windows environment, which protocol is typically used to access Microsoft Exchange mailboxes?
+O:HTTPS
+O:SMTP
+O:IMAP
+OR:MAPI
+
+Q:What is a key advantage of using VoIP technology over traditional PSTN lines?
+O:Limited call routing options
+O:Higher call costs
+OR:Ability to transmit voice over IP networks
+O:Requirement for separate voice and data channels
+
+Q:What is a significant difference between a TDM PBX and a VoIP PBX?
+O:A VoIP PBX requires a separate data channel for each call, while a TDM PBX does not.
+O:A TDM PBX can only support voice mail, while a VoIP PBX cannot.
+O:A TDM PBX uses the Internet for all calls, while a VoIP PBX uses the PSTN.
+OR:A TDM PBX is supplied as vendor-specific hardware, while a VoIP PBX can be implemented as software.
+
+Q:Which of the following is a unique identifier used by SIP endpoints?
+O:MAC address
+O:DNS name
+OR:SIP URI
+O:IP address
+
+Q:What is the purpose of using a tel: URI scheme in SIP systems?
+O:To encrypt voice communications
+O:To assign unique identifiers to devices
+O:To compress audio data for transmission
+OR:To dial a landline or cell phone
+
+Q:How do VoIP phones distinguish data traffic from voice traffic?
+O:By using separate physical links for each type of traffic
+OR:By configuring separate VLAN IDs for data and voice traffic
+O:By using digital certificates for voice traffic only
+O:By prioritizing voice traffic over data traffic using PoE
+
+Q:How do VoIP phones use VLAN tagging?
+OR:To ensure that SIP control and RTP media protocols are segregated from normal data traffic
+O:To ensure that voice and data traffic are combined on the same network
+O:To disable all data traffic except for VoIP communication
+O:To prioritize video traffic over voice traffic
+
+Q:What is the purpose of a Business Impact Analysis (BIA) in continuity planning?
+O:To evaluate the effectiveness of sales strategies
+OR:To identify risk disruption for primary business functions
+O:To assess the impact of new hires on the business
+O:To identify the most profitable business areas
+
+Q:What does disaster recovery focus on?
+O:Increasing the number of employees
+OR:Switching services to failover systems or sites
+O:Expanding the business to new markets
+O:Developing new products
+
+Q:What is the significance of conducting validation tests in disaster recovery?
+O:To assess the effectiveness of marketing strategies
+O:To evaluate the company's financial health
+OR:To ensure services can be restored
+O:To increase the company's market share
+
+Q:What does an availability of "five-nines" (99.999%) signify in disaster recovery?
+O:The system requires maintenance 99.999% of the time.
+O:The system is unavailable for 99.999% of the time.
+O:The system can recover from any disaster in 99.999% of cases.
+OR:The system is available for 99.999% of the time.
+
+Q:What does Recovery Time Objective (RTO) measure in disaster recovery planning?
+O:The time it takes to detect a system failure
+O:The amount of time needed to perform system maintenance
+O:The maximum amount of data loss that is acceptable
+OR:The time following a disaster within which a system must be restored
+
+Q:What is the main difference between a hot site and a warm site?
+O:A hot site requires the latest data set to be loaded.
+O:A warm site is ready to deploy immediately.
+OR:A warm site requires the latest data set to be loaded.
+O:A hot site is an empty building.
+
+Q:What is the primary challenge of entering into reciprocal arrangements for disaster recovery?
+OR:It is complex to plan and set up.
+O:It does not provide mutual support.
+O:It is too expensive.
+O:It is simple to plan and set up.
+
+Q:Which of the following is NOT a component of a fully redundant server configuration?
+OR:Single network card
+O:Redundant storage
+O:Multiple cooling fans
+O:Multiple power supplies
+
+Q:What does MTTF stand for, and how is it different from MTBF?
+O:Maximum Time to Fix; MTTF is used for repairable components, while MTBF is for non-repairable ones.
+OR:Mean Time to Failure; MTTF is used for non-repairable components, while MTBF is for repairable ones.
+O:Maximum Time to Failure; MTTF is used for predicting the longest operational time, while MTBF is an average.
+O:Mean Time to Fix; MTTF and MTBF are interchangeable terms.
+
+Q:What distinguishes a Layer 7 switch from a Layer 4 switch in load balancing?
+O:Layer 7 switch increases the storage capacity of servers.
+OR:Layer 7 switch makes forwarding decisions based on application-level data.
+O:Layer 7 switch is used exclusively for encrypting data traffic.
+
+Q:Where is a load balancer typically placed in a network topology?
+O:Within the client network
+OR:Between the Internet and the application servers
+O:Directly on the application servers
+O:Between the client network and the Internet
+
+Q:In an active-active cluster configuration, what happens in the event of a failover?
+O:The system automatically purchases and adds a new node to the cluster.
+O:The workload of the failed node is not shifted, and the system goes offline.
+O:The remaining nodes are shut down to prevent data corruption.
+OR:The workload of the failed node is shifted onto the remaining node(s).
+
+Q:What is a virtual IP in the context of high availability clusters?
+OR:A shared or floating address used to access the service provided by the cluster.
+O:An IP address used exclusively for load balancing.
+O:A unique IP address assigned to each node in the cluster.
+O:The private IP address used for the management of cluster nodes.
+
+Q:Which FHRP is designed to work in an active/standby configuration?
+O:OSPF
+O:GLBP
+O:EIGRP
+OR:HSRP
+
+Q:In HSRP, what term is used to describe the group of routers configured to work together as a single default gateway?
+O:Backup group
+O:Active group
+O:Virtual group
+OR:Standby group
+
+
+--------------------------------------------------------------------------------------
+
+Q:What is referred to as configuration drift?
+OR:The deviation of a CI from its baseline
+O:The process of updating a CI's baseline
+O:The act of backing up a CI's configuration
+O:The initial setup of a CI's configuration
+
+Q:Which of the following is the BEST approach when a configuration has drifted from its baseline?
+OR:Perform testing to determine whether to revert.
+O:Ignore the drift as it is usually insignificant.
+O:Update the baseline template without testing.
+O:Always revert to the golden configuration.
+
+Q:Which backup mode creates a snapshot-type image of the whole system?
+OR:State/bare metal
+O:Incremental backup
+O:Configuration file
+O:Differential backup
+
+Q:What role does a Change Advisory Board (CAB) play in change management?
+OR:It approves major or significant changes.
+O:It implements the changes directly.
+O:It documents the need for change.
+O:It creates the Request for Change (RFC) documents.
+
+Q:Why should configuration changes only be made with a service request ticket?
+O:To bypass the approval process
+O:To eliminate the need for documentation
+O:To increase the speed of changes
+OR:To ensure that the activity of network personnel is recorded
+
+Q:Why is it important to track software license usage in an asset inventory?
+OR:To ensure compliance with the vendor's licensing agreement
+O:To track the company's profit margins
+O:To evaluate the company's branding strategies
+O:To monitor employee internet usage
+
+Q:What is a configuration backup used for when applying an update?
+O:To comply with software licensing agreements
+O:To enhance the performance of the update
+O:To reduce the time required for the update
+OR:To serve as a fallback
+
+Q:Why is it important to stay up to date with system security advisories?
+O:To monitor the stock market for technology companies
+O:To ensure compliance with IT audit standards
+OR:To stay informed about vulnerabilities
+O:To keep track of new IT products
+
+Q:What is the standard method of sanitizing an HDD?
+O:Shredding
+OR:Overwriting
+O:Incineration
+O:Degaussing
+
+Q:What does the Secure Erase (SE) command do on HDDs?
+O:Marks all blocks as empty
+O:Encrypts all data on the drive
+O:Physically destroys the drive
+OR:Performs a single pass of zero-filling
+
+Q:What is the primary purpose of using physical network diagrams?
+O:To track software installations on network devices
+O:To track software installations on network devices
+OR:To capture the complex relationships between network elements
+O:To document the physical location of employees
+
+Q:What is the purpose of a rack diagram?
+OR:To record the position of each appliance in the rack
+O:To document the physical location of employees within an office
+O:To track software versions installed on network devices
+O:To map out the logical flow of data within the network
+
+Q:Which layer's diagram would show asset IDs, cable links, and wall/patch panel/switch port IDs?
+O:Application
+O:Logical (IP/Layer 3)
+OR:PHY (Physical layer)
+O:Data Link (Layer 2)
+
+Q:What historical method might IT departments have used for tracking IP usage?
+OR:Static files
+O:Cloud-based databases
+O:Oral tradition
+O:Physical logbooks
+
+Q:Which agreement is most likely to be used between two companies to protect shared sensitive information?
+O:Service Level Agreement (SLA)
+O:Employment Contract
+OR:Non-Disclosure Agreement (NDA)
+O:Memorandum of Understanding (MOU)
+
+Q:What is a basic type of IP scanning mentioned in the document?
+O:Email filtering
+O:Color correction
+OR:Host discovery
+O:Spreadsheet analysis
+
+Q:What does an IP scanner do?
+OR:Establishes the logical topology of the network
+O:Edits images
+O:Encrypts network traffic
+O:Creates spreadsheets
+
+Q:Which type of scanners use specially crafted probes to locate hosts that might be configured not to respond to pings?
+OR:Security-oriented scanners
+O:Graphic design software
+O:Spreadsheet analysis tools
+O:Email management systems
+
+Q:What does Nmap use to determine whether a host is present when used without switches?
+O:It performs a full database scan.
+O:It listens for any active Bluetooth devices.
+O:It sends an email to the network administrator.
+OR:It pings and sends a TCP ACK packet to ports 80 and 443.
+
+Q:Which feature allows Nmap to work out hop counts?
+O:--script switch
+O:-sn switch
+O:-p switch
+OR:--traceroute switch
+
+Q:Which Nmap scan type is less stealthy due to its use of the operating system to attempt a full TCP connection?
+O:UDP scans (-sU)
+O:TCP SYN (-sS)
+OR:TCP connect (-sT)
+O:Port range (-p)
+
+Q:What is the purpose of using the -sV or -A switch with Nmap?
+O:To limit the scan to the local network only
+O:To disable logging of the scan results
+OR:To probe for software versions on each port
+O:To increase the speed of the scan
+
+Q:What is the primary function of Cisco Discovery Protocol (CDP)?
+O:To provide a secure tunnel for data transmission
+O:To encrypt data traffic between Cisco devices
+O:To assign IP addresses to devices on a network
+OR:To discover information about directly connected Cisco devices
+
+Q:Which of the following is NOT information that CDP can report?
+OR:MAC address table sizes
+O:Power over Ethernet usage
+O:IOS version
+O:Device ID/hostname
+
+Q:What can cause a broadcast storm in a network?
+O:Insufficient storage space on network devices
+O:Low CPU utilization
+O:High bandwidth availability
+OR:Switching loops
+
+Q:What metric measures the actual amount of data transferred over a network?
+O:Bandwidth
+OR:Throughput
+O:CPU utilization
+O:Memory usage
+
+Q:What does an availability monitor check for in an HTTP service to confirm availability?
+OR:A 200 status code
+O:A 500 status code
+O:A 302 status code
+O:A 404 status code
+
+Q:What is the primary function of an availability monitor?
+O:To update digital certificates
+OR:To trigger an alarm for service unscheduled downtime
+O:To increase the speed of a service
+O:To manage network bandwidth
+
+Q:What should you consider doing if a server hosting a service is overloaded?
+OR:Throttle client connections.
+O:Disable the Spanning Tree Protocol (STP).
+O:Increase network congestion.
+O:Decrease the server's memory.
+
+Q:What does a configuration monitor do when there is a change to a device's production configuration?
+OR:It generates logs, alerts, or alarms.
+O:It updates the baseline configuration.
+O:It automatically reverts the change.
+O:It disconnects the device from the network.
+
+Q:What mode in SNMPv3 does not encrypt packets but requires authentication?
+O:authPriv
+O:privAuth
+O:noAuthNoPriv
+OR:authNoPriv
+
+Q:What is the purpose of a community string in SNMP?
+O:To encrypt data packets
+O:To identify the network topology
+O:To increase network speed
+OR:To serve as a type of password
+
+Q:An organization is using the Simple Network Management Protocol (SNMP)
+Q:for remote management and monitoring of servers and network appliances and must deploy an agent to each device.
+Q:Where are the statistics relating to the activity of each device kept?
+O:Trap
+O:Get
+OR:MIB
+O:OID
+
+Q:Which version of SNMP supports encryption and strong user-based authentication?
+O:SNMP v2c
+O:SNMP v4
+O:SNMP v1
+OR:SNMP v3
+
+Q:What is a major security weakness of SNMP v2c?
+O:It restricts management operations to known hosts.
+OR:It sends community strings in plaintext.
+O:It uses strong encryption by default.
+O:It supports too many users.
+
+Q:What distinguishes an application log from a system log?
+OR:An application log records data for a single specific service.
+O:An application log cannot record errors.
+O:An application log is only used for security purposes.
+O:An application log records data for the entire operating system.
+
+Q:What type of events does an audit log generally record?
+O:System configuration backups
+O:Detailed descriptions of all user activities
+OR:Success/fail type events related to authentication
+O:Performance metrics for compute resources
+
+Q:What is a key feature of performance/traffic logs?
+O:They exclusively track user login attempts.
+O:They record only security breaches.
+OR:They record metrics for network resources.
+O:They serve as backups for application data.
+
+Q:What does a syslog message comprise?
+O:Only a header containing a timestamp
+O:Only a message part with content
+O:A severity level and a message part
+OR:A PRI code, a header, and a message part
+
+Q:What is the purpose of the PRI code in a syslog message?
+O:To specify the protocol used
+OR:To indicate the message's priority
+O:To identify the recipient of the message
+O:To encrypt the message
+
+Q:What is an automated event management system configured to generate?
+O:A backup of the logging system
+OR:Some sort of alert
+O:A list of all devices on the network
+O:Detailed reports for every event
+
+Q:How can a high priority alert be communicated in an event management system?
+O:By increasing the logging level on all hosts
+O:By displaying it on the system dashboard only
+OR:By sending an email to the system administrator
+O:By generating a detailed report at the end of the month
+
+Q:How do SIEM tools handle differences in date/time zones among various log sources?
+O:By only accepting logs in the UTC time zone
+O:By ignoring date/time information to avoid confusion
+O:By storing logs in separate databases based on their time zones
+OR:By normalizing date/time zone differences to a single timeline
+
+Q:What does log aggregation in the context of SIEM refer to?
+O:The process of deleting outdated log files to free up storage space
+O:The physical collection of log files from different devices
+O:Encrypting log files for secure storage
+OR:Normalizing data from different sources to make it consistent
+
+Q:Why is plotting data as a graph helpful in log analysis?
+O:It eliminates the need for software analysis.
+O:It reduces the amount of data that needs to be stored.
+O:It increases the speed of the network.
+OR:It makes it easier to spot trends or spikes in the data.
+
+Q:Why might an aggregation TAP drop frames under heavy load?
+OR:Because it rebuilds streams into a single channel
+O:Because it requires a direct internet connection
+O:Because it cannot handle encrypted traffic
+O:Because it does not support gigabit signaling
+
+Q:What distinguishes a Passive TAP from a SPAN/port mirroring connection?
+O:It can increase network speed.
+OR:It physically copies the signal from the cabling to a monitor port.
+O:It requires special software to function.
+O:It can only monitor encrypted traffic.
+
+Q:What is the role of a packet sniffer in the context of a protocol analyzer?
+O:To increase the bandwidth of the network
+OR:To capture frames moving over the network medium
+O:To physically connect different network segments
+O:To provide encryption for data packets
+
+Q:What is the purpose of installing a special driver for a software-based sniffer?
+O:To increase the sniffer's processing speed
+O:To decrease the network's latency
+O:To encrypt the captured frames
+OR:To allow the frames to be read from the network stack
+
+Q:Which option is used with tcpdump to specify the network interface to listen on?
+O:-v
+O:-w
+O:-e
+OR:-i
+
+Q:How can the detail of the information shown about each frame be increased in tcpdump?
+O:Using the -e switch
+OR:Using the -v, -vv, or -vvv switches
+O:Using the -w switch
+O:Using the -i switch
+
+Q:What does the -w switch do in tcpdump?
+OR:Writes output to a file
+O:Increases the amount of detail shown
+O:Reads the contents of a capture file
+O:Shows the Ethernet header
+
+Q:What is the purpose of using display filters in Wireshark?
+OR:To show only particular frames or sequences of frames
+O:To increase the capture speed of packets
+O:To change the color of the interface
+O:To delete unwanted packets from the network
+
+Q:In Wireshark, where can you access tools for traffic analysis?
+OR:Statistics menu
+O:Edit menu
+O:File menu
+O:Tools menu
+
+Q:Which open-source tool is mentioned as a graphical packet capture and analysis utility?
+O:Nessus
+OR:Wireshark
+O:Nmap
+O:Netcat
+
+Q:What type of data transfer is described as bursty?
+OR:File transfer
+O:Live audio broadcasting
+O:Voice over IP (VoIP)
+O:Real-time video streaming
+
+Q:What are latency and jitter in the context of network performance?
+O:Techniques for optimizing bandwidth usage
+O:Measures of network speed and efficiency
+O:Types of network security protocols
+OR:Problems of timing and sequence of packet delivery
+
+Q:What is packet loss?
+O:The duplication of data packets to ensure delivery
+O:The encryption of data packets for security purposes
+OR:The discarding of data packets in a network
+O:The intentional slowing down of data transmission
+
+Q:What is considered an acceptable error rate in general terms?
+O:Exactly 5 percent
+O:Under 1 percent
+O:Over 15 percent
+O:Under 10 percent
+
+Q:What is the significance of monitoring queue length in network performance?
+OR:It helps determine whether the link is a bottleneck.
+O:It indicates the total number of users in the network.
+O:It shows the financial cost of data transfer.
+O:It measures the physical condition of the network interface.
+
+Q:What role does a NetFlow exporter play in a network?
+O:It analyzes and reports flow information.
+O:It aggregates flows from multiple collectors.
+OR:It defines cache flows.
+O:It increases the bandwidth of the network.
+
+Q:What is the primary purpose of monitoring individual interface statistics in a network?
+O:To increase the network speed
+OR:To diagnose performance issues
+O:To reduce the cost of network maintenance
+O:To enhance the security of network communications
+
+Q:Why is collecting just the packet metadata preferred over recording each frame?
+OR:It reduces the bandwidth required by the sniffer.
+O:It increases the network speed.
+O:It enhances the security of the network.
+O:It imposes a heavy processing overhead.
+
+Q:What do "top talkers" and "top listeners" refer to in network analysis?
+O:Top talkers are the most secure connections in a network, and top listeners are the least secure connections.
+O:Top talkers are devices with the highest error rates in the network, while top listeners are devices with the highest packet loss rates.
+O:Top talkers are the fastest network connections, while top listeners are the slowest network connections.
+OR:Top talkers are interfaces generating the most outgoing traffic, while top listeners are the interfaces receiving the most incoming traffic.
+
+Q:What advantage do website performance checkers offer for testing site response times?
+O:They increase website traffic automatically.
+O:They design websites.
+OR:They test from the perspective of customers in different countries.
+O:They can physically repair websites.
+
+Q:Which of the following is NOT a traffic class defined by DiffServ?
+OR:Maximum Throughput
+O:Expedited Forwarding
+O:Best Effort
+O:Assured Forwarding
+
+Q:What is the primary purpose of using Quality of Service (QoS) mechanisms in a network?
+O:To reduce the cost of network infrastructure
+OR:To prioritize certain types of traffic over others
+O:To decrease network security
+O:To increase the number of devices that can connect to the network
+
+Q:A network administrator is tasked with improving the performance of a company's VoIP (Voice over Internet Protocol) system,
+Q:which has been experiencing poor audio quality during peak business hours.
+Q:The network is also used for email, web browsing, and file transfers. The administrator decides to implement a solution
+Q:to prioritize VoIP traffic over other types of traffic.
+Q:Which of the following solutions would be MOST effective in achieving the desired improvement in VoIP performance?
+O:Implementing a First-In, First-Out (FIFO) queuing discipline across the network.
+OR:Deploying traffic shaping to prioritize VoIP packets.
+O:Increasing the bandwidth of the company's internet connection.
+O:Configuring a Random Early Detection (RED) algorithm on all network switches.
+
+Q:What is a potential consequence of using traffic policing devices instead of traffic shapers?
+O:Increased latency for non-critical applications
+O:More efficient use of available bandwidth
+O:Fewer lost packets during periods of congestion
+OR:Under-utilization of bandwidth during idle periods
+
+Q:What is the primary function of traffic shapers?
+O:To categorize protocols into different service levels
+OR:To delay certain packet types based on their content
+O:To increase the speed of packet delivery
+O:To monitor traffic conditions and generate reports
+
+-------------------------------------------------------------------------------------------------------------
+
+Q:What does "availability" in the CIA Triad refer to?
+O:The system is protected against unauthorized access and attacks and disclosure.
+O:The data is stored and transferred as intended and that any modification is authorized.
+OR:Information and resources are accessible to those authorized when needed.
+O:Information is protected from unauthorized access except to those with the proper permissions.
+
+Q:What does "integrity" in the context of the CIA Triad mean?
+OR:The data is stored and transferred as intended and that any modification is authorized.
+O:The system is protected against unauthorized access and attacks.
+O:Information is accessible to those authorized to view or modify it.
+O:Certain information should only be known to certain people.
+
+Q:What is the purpose of a cybersecurity audit?
+O:To train employees on cybersecurity best practices
+O:To assess the organization's IT budget
+O:To install security software on all company devices
+OR:To ensure a security posture aligns with established standards
+
+Q:What does a risk assessment involve?
+O:Conducting physical security checks on company premises
+O:Reviewing employee performance and productivity
+OR:Auditing the company's systems for risk factors
+O:Auditing the company's financial statements for fraud
+
+Q:What is the difficulty in implementing security controls?
+OR:They can be expensive.
+O:They only address low-level risks.
+O:They are not supported by IT service frameworks.
+O:They are always too complex to implement.
+
+Q:What does data locality require?
+OR:Data storage within certain geographical boundaries
+O:Unlimited data transfer between countries
+O:Data to be stored in the cloud
+O:Data to be encrypted at all times
+
+Q:Under what condition can an organization process credit card transactions directly?
+OR:If they adopt the PCI DSS standard
+O:If they use cloud storage
+O:If they encrypt all their emails
+O:If they have an internet presence
+
+Q:What is Personally Identifiable Information (PII)?
+O:Any data that can be publicly accessed
+OR:Data that can identify, contact, or locate an individual
+O:Data that is encrypted and stored securely
+O:Information related to a company's financial status
+
+Q:What is the role of encryption in an access control solution?
+O:To give readable access to data
+OR:To convert plaintext into ciphertext
+O:To physically secure devices and resources
+O:To serve as the only method of access control
+
+Q:What does a ciphertext represent in the context of encryption?
+O:The original human-readable information
+OR:The encrypted version of plaintext
+O:The key used to encrypt the plaintext
+O:The conversion of plaintext into a hash
+
+Q:What is meant by "data at rest"?
+OR:Data stored on a persistent storage media
+O:Data present in volatile memory
+O:Data being transmitted over a network
+O:Data being actively processed by a computer
+
+Q:What can the most serious vulnerabilities allow an attacker to do?
+O:Encrypt system files for data protection
+OR:Execute arbitrary code on the system
+O:Improve application security
+O:Increase system performance
+
+Q:What poses a greater threat than zero-day vulnerabilities?
+O:Encrypted data storage
+O:Strong password policies
+OR:Unpatched or legacy systems
+O:Newly released software
+
+Q:What is one of the key benefits of using a honeypot or honeynet in cybersecurity?
+O:Increasing the encryption strength
+O:Reducing the need for other security measures
+O:Completely eliminating cyber threats
+OR:Providing an early warning of attacks
+
+Q:What is a honeypot in the context of cybersecurity?
+OR:A computer system set up to attract attackers
+O:A firewall configuration technique
+O:A software tool used for encrypting data
+O:A type of malware designed to steal data
+
+Q:Which of the following best describes behavioral threat research?
+O:A database of all known computer viruses
+O:A method for improving the encryption of data
+OR:A commentary describing examples of attacks and TTPs
+O:A set of guidelines for installing security software
+
+Q:What distinguishes an external threat actor from an internal threat actor?
+OR:Whether they have authorized access to the system
+O:The sophistication of the attack
+O:The type of malware they use
+O:The geographical location of the actor
+
+Q:What can be a source of internal threats?
+O:Phishing emails from unknown senders
+O:Malware found on the Internet
+OR:Employees within the organization
+O:Hackers from another country
+
+Q:What is the primary goal of most adversaries when launching network attacks?
+O:To improve network security
+O:To provide free services to users
+O:To enhance network performance
+OR:To steal information from the network
+
+Q:What is the primary difference between footprinting and fingerprinting in network attacks?
+O:Footprinting is used to enhance network security, while fingerprinting is used to decrease it.
+O:Footprinting aims to improve network performance, while fingerprinting does not.
+O:Fingerprinting is a legal method of gathering information, while footprinting is not.
+OR:Footprinting gathers general network information, while fingerprinting identifies specific device types.
+
+Q:What is the purpose of spoofing attacks?
+O:To enhance the performance of ARP services
+OR:To disguise the attacker's identity
+O:To improve the security of DNS services
+O:To provide legitimate services to users
+
+Q:What is an example of an inadvertent vulnerability that users can create?
+O:Regularly updating software and applications
+O:Employing multi-factor authentication
+OR:Using shadow IT without authorization
+O:Implementing strong encryption algorithms
+
+Q:How are botnets typically created?
+OR:Through malware that opens a backdoor
+O:By updating devices with the latest firmware
+O:Through the use of strong passwords
+O:By installing security software on devices
+
+Q:What is a Distributed Reflection DoS (DRDoS) attack?
+OR:A type of attack where the victim's IP address is spoofed
+O:An attack that directly targets the attacker's network
+O:A method to reduce network bandwidth consumption
+O:An attack that improves server reflection capabilities
+
+Q:A cyber security technician responds to a department experiencing degraded network bandwidth, and customers call the department saying they cannot visit the company website.
+Q:What is likely causing the issue?
+O:Malware
+OR:Distributed DoS (DDoS)
+O:DNS Poisoning
+O:On-path attack
+
+Q:What types of devices are vulnerable to becoming part of a botnet?
+O:Only outdated computers
+O:Devices without Internet access
+O:Only servers and mainframes
+OR:Any type of Internet-enabled device
+
+Q:What does the term "advanced persistent threat (APT)" refer to in the context of malware?
+OR:A sophisticated malware attack that remains undetected
+O:A firewall feature that blocks all incoming traffic
+O:A type of antivirus software
+O:A basic form of malware that is easily detected and removed
+
+Q:What is malware?
+O:A type of computer hardware that performs poorly
+OR:Software that performs malicious actions
+O:A beneficial software tool that enhances system performance
+O:Software designed to protect computer networks
+
+Q:What does the payload of malware refer to?
+OR:The malware action other than replication
+O:The method by which the malware spreads
+O:The amount of data the malware can steal
+O:The size of the malware file
+
+Q:What are Potentially Unwanted Programs (PUPs)/Potentially Unwanted Applications (PUAs)?
+O:Software installed alongside a package selected by the user
+O:Applications that cannot be uninstalled by the user
+OR:Software that is always malicious and installed without the user's consent
+O:Programs that enhance computer security without the user's knowledge
+
+Q:What is the primary purpose of ARP poisoning in an on-path attack?
+O:To physically damage the network infrastructure.
+O:To encrypt all data packets on the network.
+OR:To redirect traffic through the attacker.
+O:To increase the efficiency of the ARP protocol.
+
+Q:What is the result of a successful ARP poisoning attack?
+O:The network's speed is significantly increased.
+OR:The attacker receives all traffic destined for remote networks.
+O:The attacker's device is disconnected from the network.
+O:All network traffic is encrypted automatically.
+
+Q:What is the primary difference between ARP spoofing and ARP poisoning?
+OR:ARP spoofing involves broadcasting fake ARP messages, while ARP poisoning refers to the state of the ARP cache.
+O:ARP poisoning is used to secure network communications, whereas ARP spoofing is a malicious activity.
+O:ARP spoofing is a passive attack while ARP poisoning is an active attack.
+O:ARP spoofing and ARP poisoning are terms for the same process, with no difference between them.
+
+Q:What is an on-path attack?
+O:A type of physical attack where the attacker physically intercepts a data transmission.
+O:A cyber-attack that exclusively targets the path of data storage devices.
+OR:A type of spoofing attack where a threat actor intercepts communications between two hosts.
+O:An attack where the threat actor creates a new path in a network to reroute data.
+
+Q:What is MAC spoofing?
+O:Intercepting MAC addresses during data transmission
+O:Physically altering the network interface to change its MAC address
+O:Using malware to reveal the MAC address of a device
+OR:Changing the MAC address of a network interface to any arbitrary value
+
+Q:What happens when a switch's MAC address table is overwhelmed due to a MAC flooding attack?
+O:The switch increases its memory capacity automatically.
+O:The switch only forwards traffic to the attacker's port.
+OR:The switch begins to function as a hub.
+O:The switch automatically shuts down for security reasons.
+
+Q:How do attackers exploit the native VLAN feature in a VLAN hopping attack?
+OR:By crafting a frame with two VLAN tag headers
+O:By sending a frame with three VLAN tag headers
+O:By deleting the native VLAN from the switch configuration
+O:By encrypting the traffic sent to the native VLAN
+
+Q:What is VLAN hopping?
+O:A method to increase the speed of VLAN traffic
+OR:An attack designed to send traffic to a VLAN other than the one the host system is in
+O:A technique to reduce network congestion
+O:A security feature of 802.1Q to enhance VLAN compatibility
+
+Q:What feature of 802.1Q do VLAN hopping attacks exploit?
+OR:Native VLANs
+O:Port mirroring
+O:Access control lists (ACLs)
+O:Port security
+
+Q:What is the primary purpose of the Spanning Tree Protocol (STP) in a network?
+O:To encrypt traffic between switches
+O:To facilitate VLAN hopping attacks
+OR:To prevent switching loops
+O:To increase network bandwidth
+
+Q:What is a common consequence of rogue devices and services in a network?
+OR:Creation of new unmonitored attack surfaces.
+O:Improved network efficiency.
+O:Increased network security.
+O:Reduction in IT department workload.
+
+Q:Which of the following can be considered a rogue device?
+O:An officially sanctioned DHCP server
+O:A company-issued laptop with up-to-date security software
+OR:A wireless access point installed without IT approval
+O:A firewall configured by the network security team
+
+Q:Which of the following is a potential consequence of a rogue DHCP server changing the default gateway address for a subnet?
+O:Improved network security and encryption
+OR:Routing communications through the attacker's machine
+O:Automatic resolution of IP address conflicts
+O:Increased internet speed for all clients
+
+Q:What is a DHCP starvation attack?
+O:An attack that encrypts all DHCP traffic
+O:An attack that floods the network with excessive data
+O:An attack that physically damages the DHCP server
+OR:An attack that exhausts a DHCP server's address pool
+
+What is the MOST likely cause of clients ending up with an incorrect IP configuration?
+O:A faulty Ethernet cable
+OR:A rogue DHCP server on the network
+O:Overloaded network traffic
+O:Incorrect subnet mask settings on the client
+
+Q:What is DNS server cache poisoning?
+O:Infecting a DNS server with malware to disrupt its operation
+O:Stealing sensitive information from a DNS server's cache
+O:Physically damaging a DNS server to take it offline
+OR:Inserting false domain:IP mappings into a DNS server's cache
+
+Q:What is a common indicator of a compromised machine in the context of DNS attacks?
+O:High CPU usage
+O:Slow internet connection
+O:Frequent system crashes
+OR:Suspect entries in the HOSTS file
+
+Q:What is the purpose of the HOSTS file in DNS resolution?
+O:To log DNS query errors
+O:To act as a backup for DNS servers
+O:To store the user's browsing history
+OR:To map domain names to IP addresses
+
+Q:What is DNS spoofing?
+O:Manipulating cached DNS records
+O:Attacking the physical infrastructure of DNS servers
+OR:Using false DNS requests or replies
+O:Infecting DNS servers with malware
+
+Q:What is the primary difference between DNS spoofing and DNS poisoning?
+O:Spoofing targets only private networks, while poisoning targets public networks
+OR:Spoofing uses false DNS requests, while poisoning manipulates cached records
+O:Spoofing involves physical attacks on DNS servers, while poisoning does not
+O:Spoofing is a legal method of redirecting traffic, while poisoning is not
+
+Q:On your way into the back entrance of your work building one morning, a man dressed as a plumber asks you to let him in so he can fix the restroom.
+Q:What should you do?
+O:Tell him no and quickly close the door.
+OR:Direct him to the front entrance and instruct him to check in with the receptionist.
+O:Let him in and help him find the restroom. Then let him work.
+O:Let him in.
+
+Q:Which of the following examples BEST describes shoulder surfing?
+O:Giving someone you trust your username and account password
+OR:Someone nearby watching you enter your password on your computer and recording it
+O:Finding someone's password in the trash can and using it to access their account
+O:Guessing someone's password because it is so common or simple
+
+Q:Which password cracking method involves trying every possible combination to find the matching password?
+O:Social Engineering
+O:Phishing
+OR:Brute Force
+O:Dictionary
+
+Q:Why are longer and more complex passwords more secure against brute force attacks?
+O:They are easier to remember.
+O:They take less time to crack.
+O:They are less likely to be stored in password files.
+OR:They increase the amount of time the attack takes to run.
+
+Q:What is a common way for threat actors to gain access to a network?
+O:By physically breaking into server rooms
+O:By guessing the network IP address
+O:By sending formal requests for access to the IT department
+OR:By obtaining credentials to access the network
+
+----------------------------------------------------------------------
+Q:Which factor determines the type of credential a subject can use for authentication?
+O:Identification process
+OR:Authentication factor
+O:Authorization model
+O:Accounting system
+
+Q:What is a mandatory model in authorization?
+O:A model based on the subject's role
+O:A model where rights are allocated by the system administrator
+OR:A model where rights are predetermined by system-enforced rules
+O:A model based on the subject's attributes
+
+Q:Which of the following is an example of a behavioral factor used in authentication?
+O:Smart card
+O:Password
+O:Fingerprint
+OR:Making a signature
+
+Q:What is considered a knowledge factor in authentication?
+OR:A password
+O:A mobile device
+O:A fingerprint
+O:A smart card
+
+Q:Why are behavioral, location, and time factors not reliable enough to be used as single factors in authentication?
+O:They are not recognized by authentication systems.
+OR:They are not specific or reliable enough.
+O:They are too easy to fake.
+O:They are too difficult to measure.
+
+Q:Which of the following combinations represents two-factor authentication?
+O:Password and the time of login
+O:Two different passwords
+O:Password and a user's favorite color
+OR:Password and a smart card
+
+Q:What is the preferred system for Windows network authentication?
+O:NT LAN Manager (NTLM)
+O:OAuth
+OR:Kerberos
+O:SAML
+
+Q:Why are passwords stored as cryptographic hashes?
+O:To ensure passwords can be easily recovered if forgotten
+OR:To prevent a password from being easily compromised
+O:To allow users to choose simpler passwords
+O:To increase the speed of the authentication process
+
+Q:What framework does Windows use to provide Single Sign-On (SSO) authentication?
+O:OAuth
+O:LDAP
+OR:Kerberos
+O:SAML
+
+Q:What does the Ticket Granting Ticket (TGT) provide in the Kerberos authentication process?
+OR:The ability to request Service Tickets from the TGS
+O:Authentication for user logon requests
+O:Immediate access to all network resources
+O:A token that grants access to a target application server
+
+Q:What is the role of a Certificate Authority (CA) in PKI?
+OR:To guarantee the validity of digital certificates
+O:To generate symmetric session keys
+O:To encrypt messages with public keys
+O:To distribute private keys to users
+
+Q:What is a key pair in public key cryptography?
+OR:A set of two keys, one public and one private, used together
+O:A set of two keys, one for signing and one for verification
+O:Two identical keys used for encryption and decryption
+O:Two public keys used interchangeably
+
+Q:What is the main goal of storing encryption keys securely?
+O:To increase the key's strength
+OR:To prevent unauthorized access
+O:To facilitate key revocation
+O:To ensure easy access for all users
+
+Q:What is a key component of federated identity management?
+O:Single sign-on with a single password for all accounts
+OR:Claims-based identity
+O:Password synchronization
+O:Active Directory
+
+Q:What is a key difference between RADIUS and TACACS+ in terms of protocol functionality?
+O:TACACS+ is only used for wireless access, while RADIUS is not.
+O:TACACS+ uses UDP for communication, while RADIUS uses TCP.
+OR:TACACS+ separates AAA functions, while RADIUS does not.
+O:RADIUS encrypts the entire authentication process, while TACACS+ does not.
+
+Q:What is the primary purpose of authorization in network systems?
+O:To encrypt data
+O:To authenticate user identities
+OR:To allocate rights and permissions
+O:To monitor network traffic
+
+Q:Which of the following statements BEST describes a key principle of the Discretionary Access Control (DAC) model?
+O:Access permissions are assigned based on the sensitivity of the data.
+OR:Every resource has an owner.
+O:Users are assigned roles based on their job functions.
+O:Permissions are centrally managed by a security administrator.
+
+Q:How does RBAC differ from using security groups for assigning permissions?
+O:Security groups encrypt data, while RBAC does not.
+OR:RBAC focuses on job roles, while security groups are about user identity.
+O:RBAC is discretionary, while security groups are nondiscretionary.
+O:RBAC assigns permissions directly to users, while security groups do not.
+
+Q:What does the principle of least privilege entail in the context of PAM?
+O:Granting users unlimited rights to perform their job
+O:Allowing users to determine their access rights
+O:Providing all users with administrative privileges
+OR:Granting users only the rights necessary to perform their job
+
+Q:What role does separation of duties play in PAM?
+O:It allows users to choose their responsibilities.
+OR:It divides responsibilities among individuals to prevent abuse of power.
+O:It consolidates duties to streamline management.
+O:It ensures all users have the same level of access.
+
+Q:What does an access key contain when generated by the server's security service for an authenticated user?
+O:The user's browsing history and application usage
+OR:The user's username and group memberships
+O:The user's password and login time
+O:The IP address and MAC address of the user's device
+
+Q:In an LDAP distinguished name (DN), how are the components of the name structured?
+O:In a hierarchical tree structure
+O:Through a sequence of encrypted tokens
+O:As a list of user-defined keywords
+OR:As a series of attribute=value pairs
+
+Q:What is LDAP primarily used for?
+O:Transferring files between computers
+OR:Querying and updating directory services
+O:Managing network devices and configurations
+O:Encrypting data transmissions over the Internet
+
+Q:Which of the following best describes the purpose of an access control policy in LDAP?
+O:To determine the encryption method used for LDAP communications.
+O:To set the network ports that LDAP will use for communications.
+O:To configure the digital certificates for LDAPS.
+OR:To specify which users can access the LDAP directory.
+
+Q:Why should anonymous and simple bind access methods be disabled on an LDAP server requiring secure access?
+OR:They transmit data in plaintext.
+O:They are the most secure methods of authentication.
+O:They use digital certificates for all connections.
+O:They provide encryption automatically.
+
+Q:How has the concept of the network edge changed due to the erosion of the perimeter security model?
+OR:It has expanded to include access switches and wireless access points.
+O:It has become more focused on the physical location of the network.
+O:It has been eliminated entirely.
+O:It has become synonymous with the firewall.
+
+Q:What is the perimeter security model primarily focused on?
+O:Monitoring and controlling internal network traffic
+O:Encrypting data stored on the network
+OR:Trusting all connections within the internal network
+O:Preventing unauthorized external access
+
+Q:What is the minimum recommended password length for network appliances according to the document?
+OR:14 characters
+O:12 characters
+O:8 characters
+O:10 characters
+
+Q:What does role-based access control aim to achieve?
+OR:Limit permissions based on administrative roles.
+O:Increase the number of administrators.
+O:Reduce the complexity of permissions.
+O:Allow all users equal access.
+
+Q:What should be done to secure SNMP traffic?
+O:Disable SNMP entirely.
+O:Limit SNMP traffic to internal networks.
+OR:Configure SNMPv3 or use IPSec for encryption.
+O:Use the original versions of SNMP.
+
+Q:What does MAC filtering on a switch allow an administrator to do?
+O:Assign specific IP addresses to MAC addresses.
+OR:Define which MAC addresses are permitted to connect to a particular port.
+O:Monitor the amount of data transmitted by each MAC address.
+O:Limit the bandwidth usage per MAC address.
+
+Q:What does "protect mode" do when a switch port enters a violation state?
+O:It disables the port and sends alerts.
+O:It encrypts traffic from the invalid source address.
+O:It reroutes traffic from the invalid source address to a quarantine VLAN.
+OR:It drops frames from the invalid source address but keeps the interface open.
+
+Q:Which of the following is a vulnerability that still exists even with restricted access to physical switch ports and hardware?
+O:Overheating of network equipment
+OR:Rogue administrators
+O:Incompatibility with older network protocols
+O:Increased network latency
+
+Q:What does a health policy in NAC solutions typically require from a client?
+OR:An attestation report
+O:A user activity log
+O:A financial report
+O:A network performance analysis
+
+Q:In the context of IEEE 802.1X, what is the role of a switch configured as a RADIUS client?
+O:To encrypt network traffic
+O:To manage network storage
+OR:To forward authentication data
+O:To distribute IP addresses
+
+Q:In which scenario is the Extensible Authentication Protocol (EAP) typically used?
+O:When a user is downloading a file from the Internet
+O:When browsing social media platforms
+OR:When a user is accessing a wireless network
+O:When sending an email
+
+Q:Which feature is similar to Dynamic ARP Inspection but for IPv6 networks?
+O:DHCP snooping
+O:VLAN tagging
+O:BPDU Guard
+OR:Neighbor Discovery Inspection
+
+Q:What does enabling Root Guard on ports not used as trunk lines accomplish?
+O:It increases the number of allowable VLANs on a port.
+OR:It prevents unauthorized changes to the root bridge selection.
+O:It encrypts BPDU packets for secure transmission.
+O:It allows for faster convergence of the spanning tree.
+
+Q:Can port mirroring be configured to filter packets based on specific criteria?
+O:Yes, but only by MAC address.
+O:Yes, but only by IP address.
+O:No, port mirroring copies all traffic without filtering.
+OR:Yes, packets can be filtered based on multiple criteria.
+
+Q:Which of the following can be a use case for the mirror port in port mirroring?
+O:Connecting another switch
+O:Serving as an additional port for network clients
+OR:Acting as a monitoring point
+O:Providing power over Ethernet (PoE) to devices
+
+Q:What is an implicit deny in firewall configuration?
+O:A temporary rule that denies access during peak hours
+OR:A default behavior to block traffic that does not match any rule
+O:A rule that explicitly allows all traffic
+O:A rule that only denies traffic from specific countries
+
+Q:How are the rules in a firewall's ACL processed?
+O:From bottom to top
+O:Simultaneously
+OR:From top to bottom
+O:Randomly
+
+Q:What is a transparent proxy also known as?
+O:Secure proxy
+O:Direct proxy
+OR:Forced proxy
+O:Private proxy
+
+Q:What is a forward proxy primarily used for?
+O:Data storage
+OR:Outbound traffic management
+O:Inbound traffic management
+O:Data encryption only
+
+Q:What is a reverse proxy used for?
+O:Storing data permanently
+O:Directly connecting clients to the Internet
+O:Managing outbound traffic
+OR:Managing inbound traffic
+
+Q:What is the function of a content filtering firewall or proxy?
+O:To provide a VPN service
+O:To serve as a backup data center
+OR:To restrict access
+O:To increase bandwidth
+
+Q:What is the primary purpose of content filtering in an organization's network?
+O:To monitor employee productivity
+O:To encrypt network traffic
+OR:To block access to malicious websites
+O:To increase network speed
+
+Q:What is the role of regular expression pattern matching in URL filtering?
+OR:To filter by keywords
+O:To encrypt the URL
+O:To identify the user's location
+O:To increase the speed of filtering
+
+Q:What might a firewall be incorrectly doing if an application fails to function correctly?
+O:Decrypting all incoming traffic
+OR:Blocking TCP or UDP ports that should be open
+O:Allowing all TCP and UDP ports
+O:Increasing bandwidth for all applications
+
+Q:What is a potential diagnostic step for a host-based firewall issue?
+OUpgrading the firewall's firmware
+O:Encrypting all outgoing traffic
+O:Increasing the firewall's memory allocation
+OR:Attempting a connection with the host firewall disabled
+
+------------------------------------------------------------------
+Q:Which security device is typically used to enforce rules between network zones?
+O:Switch
+OR:Firewall
+O:Router
+O:Access Point
+
+Q:Which of the following network security zones is subject to strict hardening and configuration management policies, and where hosts, user accounts, and traffic are continually monitored to ensure compliance with security policies?
+O:Public server network
+OR:Private server administrative networks
+O:Private client network
+O:Guest
+
+Q:What is the role of VLANs in network segmentation?
+O:To enforce security policies at the application layer
+OR:To create separate broadcast domains
+O:To provide wireless connectivity
+O:To increase the physical security of network devices
+
+Q:Which of the following servers should be placed in a perimeter network?
+OR:Web servers providing public access services
+O:Database servers containing sensitive information
+O:File servers used exclusively by internal employees
+O:Internal email servers for employee communication
+
+Q:What is the purpose of a choke point in a screened subnet configuration?
+OR:To facilitate better access control and easier monitoring
+O:To allow unrestricted access between the perimeter network and the LAN
+O:To eliminate the need for internal firewalls
+O:To provide a direct connection to the Internet
+
+Q:What is a perimeter network also known as?
+OR:A demilitarized zone (DMZ)
+O:A fully public network
+O:A neutral zone
+O:A triple homed network
+
+Q:What is the role of the screening firewall in a screened subnet?
+OR:To restrict traffic on the external/public interface
+O:To provide unrestricted access to the Internet
+O:To filter communications between hosts in the perimeter and the LAN
+O:To connect directly to the LAN
+
+Q:Which IDS traffic assessment indicates that the system identified harmless traffic as offensive and generated an alarm or stopped the traffic?
+OR:False positive
+O:Negative
+O:False negative
+O:Positive
+
+Q:You're concerned about attacks directed at your network firewall. You want to be able to identify and be notified of any attacks.
+Q:In addition, you want the system to take immediate action to stop or prevent the attack, if possible.
+Q:Which tool should you use?
+OR:IPS
+O:IDS
+O:Packet sniffer
+O:Port scanner
+
+Q:Which of the following best describes the role of a sniffer in an Intrusion Detection System (IDS)?
+O:It generates signature patterns for detecting malicious activity.
+OR:It reads frames from a mirrored port to monitor network traffic.
+O:It serves as a firewall to block malicious traffic.
+O:It encrypts network traffic to prevent unauthorized access.
+
+Q:Which of the following is a potential vulnerability of integrated peripherals in smart devices?
+O:Enhanced user experience
+OR:Facilitation of surveillance
+O:Improved device performance
+O:Increased battery life
+
+Q:What makes smart devices vulnerable to standard attacks?
+OR:Their compute, storage, and network functions
+O:The lack of integrated peripherals
+O:The use of proprietary operating systems
+O:Their inability to connect to the Internet
+
+Q:What characterizes a static computing environment?
+O:High levels of user customization and data file management
+OR:Limited support for correcting security issues
+O:Frequent hardware and software changes
+O:The ability to install new operating systems
+
+Q:What is a "data historian" in the context of an ICS?
+O:A communication protocol for PLCs
+OR:A database generated by the control loop
+O:A cybersecurity tool for industrial networks
+O:A backup server for industrial data
+
+Q:What role does a Programmable Logic Controller (PLC) play in an ICS?
+OR:It controls industrial machinery and processes.
+O:It serves as a data storage unit for industrial information.
+O:It provides internet access to industrial devices.
+O:It acts as a firewall for industrial devices.
+
+Q:What is a significant advantage of Narrowband-IoT (NB-IoT) over regular cellular connectivity?
+O:Direct connection to the Internet without intermediaries
+O:Unlimited bandwidth usage
+OR:Greater penetrating power
+O:Higher data rates
+
+Q:What distinguishes an Operational Technology (OT) network from a standard IT data network?
+O:OT networks cannot use industrial Ethernet.
+O:OT networks use standard Ethernet only.
+OR:OT networks are optimized for real-time transfers.
+O:OT networks are primarily used for gaming.
+
+Q:What is a vulnerability in integrating ICS/SCADA systems with corporate data networks?
+O:Improved system interoperability
+O:Enhanced data flow and efficiency
+OR:Vulnerable links that can be exploited
+O:Increased system redundancy
+
+Q:What can mitigate the risks posed by IoT devices in remote working scenarios?
+O:Avoiding the use of Wi-Fi networks
+OR:Regular audits and employee security awareness training
+O:Decreasing the number of devices connected to the home network
+O:Using older, more familiar technology
+
+Q:What distinguishes smart building technology from consumer-grade IoT devices in terms of security?
+O:Smart building technology cannot be updated.
+OR:Smart building technology has less scope for compromise.
+O:Smart building technology uses Bluetooth exclusively.
+O:Smart building technology is more prone to compromise.
+
+Q:What is a badge reader used for in building security?
+O:To detect motion at entry points
+O:To provide lighting at entry points
+O:To record the time employees leave the building
+OR:To authenticate users quickly at access points
+
+Q:How is a user's biometric data used in a biometric lock system?
+O:It is sent to a remote server for storage.
+OR:It is recorded and stored on an authentication server.
+O:It is deleted immediately after each use for privacy reasons.
+O:It is stored on the user's badge.
+
+Q:Due to an increase in foot traffic from outside groups throughout the building, the organization asks
+Q:their security office to employ equipment that will allow visual monitoring across the organization.
+Q:What equipment would best be suited to manage this request?
+OR:Cameras
+O:Asset Tag
+O:Circuit
+O:Motion Detection
+
+Q:What feature allows a security camera to survey a large room and pick out individual faces?
+O:Narrow focal length
+O:Fixed positioning
+OR:Pan-Tilt-Zoom (PTZ) controls
+O:Coaxial cabling
+
+Q:What can an organization use geofencing for?
+O:To increase the speed of their internet connection
+O:To monitor the productivity of their employees
+O:To improve the accuracy of their GPS systems
+OR:To control the use of camera functions on devices
+
