@@ -1520,3 +1520,255 @@ O:To monitor the productivity of their employees
 O:To improve the accuracy of their GPS systems
 OR:To control the use of camera functions on devices
 
+-------------------------------------------------------------------------------
+Q:What is the primary purpose of the IEEE 802.11 standards?
+O:To establish security standards for the Internet
+O:To define the protocols for wired networking
+OR:To define the physical layer media for wireless LANs
+O:To regulate the manufacturing of wireless devices
+
+Q:What is the function of the Request to Send (RTS) and Clear To Send (CTS) mechanism in IEEE 802.11 networks?
+OR:To further reduce the incidence of collisions
+O:To increase the transmission speed
+O:To assign IP addresses to devices
+O:To encrypt data transmissions
+
+Q:You are a network administrator tasked with setting up a Wi-Fi network in a large office building.
+Q:The building has multiple floors with thick concrete walls and several electronic devices that could cause interference.
+Q:Your primary goal is to ensure high data rates and minimal interference for the office's Wi-Fi network.
+Q:Given this scenario, which frequency band and configuration would be the most appropriate for your Wi-Fi network?
+answer
+O:Use the 2.4 GHz band because it is less congested and supports more individual channels.
+O:Use the 5 GHz band but limit the power output to comply with regulatory constraints.
+OR:Use the 5 GHz band because it supports higher data rates and has more individual channels.
+O:Use the 2.4 GHz band because it has better penetration through solid surfaces.
+
+Q:What additional feature does the IEEE 802.11h standard introduce to the 5 GHz band?
+O:Enhanced encryption
+O:Increased data rates
+OR:Dynamic Frequency Selection (DFS)
+O:Reduced channel width
+
+Q:How many non-overlapping channels are recommended in the 2.4 GHz band for IEEE 802.11b to avoid co-channel interference?
+O:14
+O:11
+OR:3
+O:13
+
+Q:What does channel bonding achieve in the context of IEEE 802.11n?
+O:It decreases the data rate.
+O:It reduces the frequency range.
+O:It limits the use of multiple antennas.
+OR:It combines two 20 MHz channels into a single 40 MHz channel.
+
+Q:What is the effect of operating in High Throughput (HT)/greenfield mode?
+OR:It maximizes performance.
+O:It reduces overall WLAN performance.
+O:It increases compatibility with older standards.
+O:It increases the number of available channels.
+
+Q:What is the primary aim of Wi-Fi 6 (802.11ax)?
+O:To support only the 2.4 GHz band
+O:To double the speed of Wi-Fi 5
+OR:To approximate 10G connection speeds
+O:To eliminate the need for Wi-Fi passwords
+
+Q:What is the primary purpose of using Resource Units (RUs) in Wi-Fi 6?
+O:To encrypt data packets for security
+O:To increase the Wi-Fi signal range
+OR:To allocate bandwidth more efficiently
+O:To reduce the frequency of signal interference
+
+Q:In which Wi-Fi standard was Downlink MU-MIMO (DL MU-MIMO) first introduced?
+O:Wi-Fi 6 (802.11ax)
+O:Wi-Fi 6E
+O:Wi-Fi 4 (802.11n)
+OR:Wi-Fi 5 (802.11ac)
+
+Q:What is a key difference between Wi-Fi 5 and Wi-Fi 6 regarding MU-MIMO?
+O:Wi-Fi 5 supports UL MU-MIMO, while Wi-Fi 6 does not.
+O:Wi-Fi 5 exclusively uses the 6 GHz band for MU-MIMO.
+O:Wi-Fi 6 does not support downlink MU-MIMO.
+OR:Wi-Fi 6 supports up to eight stations in parallel, while Wi-Fi 5 supports up to four.
+
+Q:Which of the following is a requirement for 4G and 5G devices to connect to the network?
+O:A Bluetooth connection
+O:An Ethernet cable
+O:A Wi-Fi password
+OR:A SIM card or chip
+
+Q:What is the effective range of a cellular base station?
+OR:Up to 5 miles (8 km)
+O:Up to 2 miles (3.2 km)
+O:Up to 1 mile (1.6 km)
+O:Up to 10 miles (16 km)
+
+Q:Which of the following is a drawback of using an array of satellites positioned in low Earth orbit (LEO) for Internet access?
+O:The satellites do not move relative to the surface of the Earth.
+O:The technology offers higher latency than geostationary satellites.
+OR:The customer's premises antenna must periodically realign with the array.
+O:The satellites provide unlimited bandwidth.
+
+Q:What technology is used to connect the customer's premises to the satellite Internet service?
+O:Ethernet cable
+OR:VSAT satellite dish antenna
+O:High-frequency radio waves
+O:Fiber-optic cable
+
+Q:Which network type is most commonly used in Wi-Fi setups?
+O:Mesh network
+O:Peer-to-peer network
+O:Ad-hoc network
+OR:Infrastructure network
+
+Q:You have decided to conduct a business meeting at a local coffee shop. The coffee shop you chose has a wireless hotspot
+Q:for customers who want internet access.
+Q:You decide to check your email before the meeting begins. When you open the browser, you cannot gain internet access.
+Q:Other customers are using the Internet without problems. You're sure that your laptop's wireless adapter works
+Q:because you use a wireless connection at work.
+Q:What is the MOST likely cause of the problem?
+OR:A mismatched SSID
+O:Different LAN protocols
+O:Incorrectly configured PPP
+O:An out-of-range WAP
+
+Q:How can multiple APs connected to the same distribution system be described?
+OR:As an Extended Service Set (ESS)
+O:As an Ad-hoc Network
+O:As a Mesh Network
+O:As a Peer-to-Peer Network
+
+Q:What mechanism do stations use to determine an appropriate data rate based on signal quality?
+O:Adaptive Frequency Selection
+OR:Dynamic Rate Switching/Selection (DRS)
+O:Signal Quality Assessment
+O:Fixed Rate Selection
+
+Q:Which of the following best represents a good signal strength?
+O:-50 dBm
+O:-80 dBm
+O:-30 dBm
+OR:-65 dBm
+
+Q:What is the purpose of creating a new plan with marked basic service areas and associated APs during a wireless survey?
+OR:To avoid "dead zones" and ensure adequate coverage
+O:To ensure a visually appealing layout
+O:To minimize the cost of equipment
+O:To facilitate easy maintenance
+
+Q:What is a heat map in the context of a wireless survey?
+O:A graphical representation of temperature variations in the area
+O:A map showing the locations of heating vents in relation to APs
+O:A security tool to detect unauthorized access
+OR:A graphical representation of signal strength across an area
+
+Q:What is the role of a beacon frame in a WLAN?
+O:To directly connect client devices to the Internet
+O:To encrypt data transmissions between the AP and client devices
+OR:To advertise the WLAN
+O:To suppress the SSID broadcast
+
+Q:What is the effect of suppressing SSID broadcast in a WLAN?
+OR:It requires users to manually configure the network connection.
+O:It automatically encrypts all data transmissions.
+O:It makes the network invisible to all client devices.
+O:It increases the beacon frame broadcast interval.
+
+Q:Which protocol is typically used by Cisco wireless controllers to communicate with access points?
+O:SNMP
+O:FTP
+OR:LWAPP
+O:HTTP
+
+Q:What advantage does automated VLAN pooling provide in a wireless network?
+O:Reduces the cost of deploying access points
+O:Enhances the physical security of the network infrastructure
+OR:Reduces excessive broadcast traffic
+O:Increases the signal strength of access points
+
+Q:What does the beamwidth of an antenna indicate?
+O:The power of the transmitted signal
+O:The frequency of the transmitted signal
+O:The amount of electrical resistance
+OR:The amount of directionality
+
+Q:Why should access points with omnidirectional antennas ideally be ceiling-mounted?
+O:To reduce signal strength
+O:To focus the signal in a single direction
+O:To increase the frequency of the radio waves
+OR:To minimize interference from furniture
+
+Q:What is the primary purpose of a wireless point-to-point link?
+O:To create a scalable network for large enterprise implementations
+O:To replace all wired connections in an office environment
+O:To connect multiple devices in a network without using cables
+OR:To establish a logical and physical connection between two devices
+
+Q:What is the role of Wi-Fi Direct in wireless networking?
+O:To replace the need for wired connections in all types of network topologies
+O:To provide a scalable solution for large enterprise networks
+O:To enable devices to connect to the Internet without a wireless adapter
+OR:To allow devices to operate a limited type of access point for direct connections
+
+Q:Which of the following attacks aim to recover the encryption key in WEP and original WPA versions?
+O:Phishing attacks
+OR:Replay attacks
+O:Cross-site scripting attacks
+O:SQL injection attacks
+
+Q:What protocol does WPA introduce to mitigate attacks against WEP?
+OR:TKIP
+O:GCMP
+O:CCMP
+O:AES
+
+Q:In WPA2, what is generated using the passphrase in PSK authentication?
+O:Password Authenticated Key Exchange (PAKE)
+OR:Pairwise master key (PMK)
+O:SAE protocol
+O:4-way handshake
+
+Q:What role does the access point (AP) play in enterprise authentication?
+O:It directly authenticates user credentials.
+OR:It forwards authentication data to an AAA server.
+O:It generates the master key (MK).
+O:It serves as the authentication server.
+
+Q:Which methods are used to derive session keys in an enterprise authentication setup? (Select Two)
+O:SNMP community strings
+O:DHCP lease negotiation
+OR:WPA3 SAE methods
+O:IEEE 802.11ac beamforming
+OR:WPA2 four-way handshake
+
+Q:What is the purpose of using a VPN with an open Wi-Fi network?
+OR:To create an encrypted tunnel for secure communication
+O:To allow unrestricted access to all network resources
+O:To decrease the network's bandwidth usage
+O:To bypass the need for a captive portal
+
+Q:What mechanism does WPA3 use to encrypt open authentication traffic?
+O:WPA2 Encryption
+OR:Wi-Fi Enhanced Open
+O:TLS Encryption
+O:VPN Tunneling
+
+Q:What is an enterprise mobility management (EMM) suite primarily used for in a BYOD environment?
+OR:To enforce security policies on connected devices
+O:To restrict personal use of corporate devices
+O:To increase the variety of devices used in the corporate environment
+O:To prohibit the use of personal devices in the workplace
+
+Q:What is one solution to mitigate the risk of rogue access points?
+O:Decreasing the signal strength of the legitimate access points
+OR:Using EAP-TLS security for mutual authentication
+O:Disabling the network's SSID broadcast
+O:Increasing the network's bandwidth
+
+Q:Which of the following BEST describes the method an attacker might use to make an evil twin access point more appealing to unsuspecting users?
+O:Encrypting the connection to the evil twin access point with an outdated encryption method
+O:Decreasing the signal strength of the evil twin access point
+O:Naming the evil twin access point with a completely unrelated SSID
+OR:Configuring the evil twin access point with a similar or identical SSID to a legitimate access point
+
+-------12.4 to be done--------
