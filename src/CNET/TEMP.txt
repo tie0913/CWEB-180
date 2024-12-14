@@ -38,7 +38,7 @@ O:Slam
 O:Jitter
 
 Q:Which of the following time standards does NTP use?
-QR:UTC
+OR:UTC
 O:PDT
 O:CDT
 O:EDT
@@ -656,7 +656,7 @@ O:The intentional slowing down of data transmission
 
 Q:What is considered an acceptable error rate in general terms?
 O:Exactly 5 percent
-O:Under 1 percent
+OR:Under 1 percent
 O:Over 15 percent
 O:Under 10 percent
 
@@ -997,7 +997,7 @@ O:An attack that floods the network with excessive data
 O:An attack that physically damages the DHCP server
 OR:An attack that exhausts a DHCP server's address pool
 
-What is the MOST likely cause of clients ending up with an incorrect IP configuration?
+Q:What is the MOST likely cause of clients ending up with an incorrect IP configuration?
 O:A faulty Ethernet cable
 OR:A rogue DHCP server on the network
 O:Overloaded network traffic
@@ -1360,7 +1360,7 @@ O:Allowing all TCP and UDP ports
 O:Increasing bandwidth for all applications
 
 Q:What is a potential diagnostic step for a host-based firewall issue?
-OUpgrading the firewall's firmware
+O:Upgrading the firewall's firmware
 O:Encrypting all outgoing traffic
 O:Increasing the firewall's memory allocation
 OR:Attempting a connection with the host firewall disabled
@@ -1537,7 +1537,6 @@ Q:You are a network administrator tasked with setting up a Wi-Fi network in a la
 Q:The building has multiple floors with thick concrete walls and several electronic devices that could cause interference.
 Q:Your primary goal is to ensure high data rates and minimal interference for the office's Wi-Fi network.
 Q:Given this scenario, which frequency band and configuration would be the most appropriate for your Wi-Fi network?
-answer
 O:Use the 2.4 GHz band because it is less congested and supports more individual channels.
 O:Use the 5 GHz band but limit the power output to comply with regulatory constraints.
 OR:Use the 5 GHz band because it supports higher data rates and has more individual channels.
@@ -1771,4 +1770,345 @@ O:Decreasing the signal strength of the evil twin access point
 O:Naming the evil twin access point with a completely unrelated SSID
 OR:Configuring the evil twin access point with a similar or identical SSID to a legitimate access point
 
--------12.4 to be done--------
+Q:What is the inverse-square rule in the context of wireless signals?
+O:Doubling the distance between devices quadruples the signal strength
+O:Doubling the distance between devices doubles the signal strength
+OR:Doubling the distance between devices reduces the signal strength by a factor of four
+O:Doubling the distance between devices halves the signal strength
+
+Q:What can cause a loss of power/signal strength in a wireless network?
+O:Using a Wi-Fi analyzer
+OR:Free space path loss and interference
+O:Decreasing the distance between devices
+O:Upgrading network hardware
+
+Q:What is throughput in the context of wireless networks?
+OR:The amount of data transferred at the network layer
+O:The maximum data rate supported by the network standard
+O:The latency of the network
+O:The speed of the network's encryption algorithm
+
+Q:What is the recommended AP power setting relative to the weakest client power?
+O:Twice the weakest client power
+O:Equal to the weakest client power
+O:Half of the weakest client power
+OR:2/3rds of the weakest client power
+
+Q:What is antenna cable attenuation?
+O:The increase in Wi-Fi signal due to better antenna placement
+O:The process of adding more access points to a network
+OR:The loss of signal strength along a coax cable
+O:The strengthening of a signal over a coax cable
+
+Q:Why is it important to consider the band (2.4 GHz or 5 GHz) that client devices support when addressing wireless coverage issues?
+O:2.4 GHz signals cannot penetrate walls or other physical barriers.
+O:The band determines the maximum speed of the internet connection.
+O:5 GHz devices consume more power, leading to higher electricity costs.
+OR:Client devices that only support 2.4 GHz cannot connect to a 5 GHz network.
+
+Q:In a complex environment, why might it be necessary to adjust the power level used by an access point on a given channel? (Select two.)
+O:To increase the number of devices that can connect to the access point
+O:To ensure the access point can interfere with other cells
+OR:To prevent the access point from interfering with other cells
+O:To decrease the security level of the network
+OR:To ensure clients can communicate effectively
+
+Q:What type of interference occurs when access points are configured to use overlapping channels, such as channels 1 and 3 in the 2.4 GHz band?
+O:Frequency modulation interference
+OR:Adjacent channel interference
+O:Co-channel interference
+O:Direct sequence interference
+
+Q:Aside from interference, what could signal problems also be a result of?
+O:A malfunctioning Wi-Fi adapter in the client device
+O:Excessive bandwidth usage by a single device
+O:The use of outdated encryption protocols
+OR:An attack on the network by making clients connect to a rogue AP
+
+Q:What is Electromagnetic Interference (EMI) and how can it be detected?
+OR:EMI is interference from a powerful source in the same frequency band.
+O:EMI is a type of signal boost provided by certain appliances, detectable through standard Wi-Fi analysis.
+O:EMI is an enhancement of the Wi-Fi signal that can be detected with a Wi-Fi adapter.
+O:EMI is interference from devices working in different frequency bands and can be ignored.
+
+Q:What is the primary purpose of analyzing access point association times for client devices?
+O:To calculate the total data usage of each client
+OR:To identify issues with roaming
+O:To assess the security level of the wireless network
+O:To determine the optimal placement for new access points
+
+Q:What is a legitimate reason for a client to disassociate but not deauthenticate from an AP?
+O:The client is shutting down.
+O:The client is updating its firmware.
+OR:The client is roaming in an extended service area.
+O:The client is performing a security scan.
+
+Q:What might unexpected client disassociations indicate if there is no roaming, interference, or standards support issue?
+OR:A potential malicious attack
+O:A need for a firmware update
+O:A signal to upgrade the network equipment
+O:A sign of excessive network traffic
+
+Q:What role does a controller play in managing overcapacity in an enterprise Wi-Fi solution?
+O:It assigns static IP addresses to all clients to manage connections better.
+O:It physically cools down the APs to prevent overheating.
+OR:It provides reporting tools to diagnose bandwidth issues.
+O:It increases the Wi-Fi signal strength automatically.
+
+Q:What is a common method to dynamically manage network load and reduce overutilization in a wireless network facing overcapacity issues?
+O:Deploying additional DHCP servers
+O:Increasing the AP's transmit power
+O:Reducing the encryption level of the network
+OR:Reassigning wireless channels dynamically
+
+Q:What is the function of a Customer Edge (CE) router in a WAN?
+O:To modulate and demodulate signals
+O:To increase the bandwidth of the WAN
+OR:To connect the customer's network to the provider's network
+O:To provide firewall services exclusively
+
+-----------------------------------------------------------------------------
+Q:What is the function of a Customer Edge (CE) router in a WAN?
+O:To modulate and demodulate signals
+O:To increase the bandwidth of the WAN
+OR:To connect the customer's network to the provider's network
+O:To provide firewall services exclusively
+
+Q:At which layer of the OSI model do WANs often use simpler protocols compared to LANs?
+O:Network layer
+O:Transport layer
+OR:Data Link layer
+O:Physical layer
+
+Q:Why do organizations often choose to use public networks for their WAN services?
+O:Because public networks are faster than private networks
+O:Because public networks offer the highest security
+OR:Because the cost is far less than implementing a private solution
+O:Because public networks do not require any infrastructure
+
+Q:What role does a Cable Modem Termination System (CMTS) play in a cable internet setup?
+O:It serves as a backup connection point.
+O:It encrypts data transmissions.
+O:It converts analog signals to digital.
+OR:It routes data traffic via the fiber backbone.
+
+Q:What is the purpose of a filter (splitter) in a DSL setup?
+OR:To prevent noise from affecting voice calls
+O:To serve as a backup connection point
+O:To increase internet speed
+O:To convert digital signals to analog
+
+Q:What is the primary function of a T-carrier system?
+O:To serve as a backup system for internet connections
+O:To encrypt data transmissions
+OR:To enable voice traffic digitization
+O:To provide wireless connectivity
+
+Q:What is the primary advantage of using Time Division Multiplexing (TDM) in T-carrier systems?
+O:It reduces the cost of internet services.
+O:It encrypts data for secure transmission.
+OR:It enables the simultaneous transmission of multiple signals over a single transmission path.
+O:It converts analog signals to digital signals.
+
+Q:How is the ONT connected to the customer's router in FTTP?
+O:Using a USB cable
+O:Using a coaxial cable
+O:Using a fiber optic cable
+OR:Using an RJ45 Ethernet patch cord
+
+Q:What is the very short range rate of VDSL2?
+O:52 Mbps upstream only
+O:50 Mbps bi-directional
+OR:100 Mbps bi-directional
+O:100 Mbps downstream only
+
+Q:What technology do service providers use to support FTTC?
+O:ADSL
+O:WiMAX
+OR:VDSL
+O:LTE
+
+Q:You often travel away from the office. While traveling, you would like to use a modem on
+Q:your laptop computer to connect directly to a server in your office to access needed files.
+Q:You want the connection to be as secure as possible. Which type of connection do you need?
+O:Virtual private network
+OR:Remote access
+O:Intranet
+O:Internet
+
+Q:What makes TACACS+ different from RADIUS?
+O:TACACS+ is less secure than RADIUS.
+OR:TACACS+ separates AAA functions.
+O:TACACS+ uses UDP for communication.
+O:TACACS+ combines AAA in a single process.
+
+Q:What is a common implementation of remote network access today?
+OR:Virtual Private Network (VPN)
+O:Direct cabled connections
+O:Physical token exchange
+O:Analog modems
+
+Q:Which protocol is known for operating at the Network layer of the OSI model to authenticate hosts and encrypt packets?
+OR:IPSec
+O:PPP
+O:TLS
+O:GRE
+
+Q:Which protocol is often used with other protocols to provision a secure tunnel due to its lack of inherent security mechanisms?
+O:IPSec
+O:TLS
+O:GRE
+OR:PPP
+
+Q:What does the Encapsulating Security Payload (ESP) protocol provide?
+O:Encryption of the payload only
+OR:Encryption of the payload and optional authentication
+O:Encryption of the whole packet
+O:Encryption of the IP header only
+
+Q:In the context of IPSec and IPv6, how are additional security features implemented within the packet structure?
+O:By modifying the payload data
+O:Via the primary IPv6 header
+OR:Through the use of extension headers
+O:With a special encryption algorithm
+
+Q:Which mode of IPSec is used for communications between VPN gateways across an unsecure network?
+OR:Tunnel mode
+O:Gateway mode
+O:VPN mode
+O:Transport mode
+
+Q:Which feature of IKEv2 facilitates the use of a VPN through a home router/firewall?
+O:EAP authentication methods
+OR:NAT traversal
+O:MOBIKE multihoming
+O:Simple setup mode
+
+Q:During which phase of IKE negotiations is the identity of the two peers established?
+O:Phase II
+O:Phase III
+OR:Phase I
+O:Phase IV
+
+Q:What does a full tunnel VPN configuration do?
+O:Requires no client software to operate
+OR:Mediates internet access through the corporate network
+O:Allows the client to bypass corporate network security
+O:Directly connects the client to the Internet using ISP-managed configurations
+
+Q:Which protocol is used in conjunction with IPSec to provide added security?
+O:SSTP
+O:PPTP
+O:EAP
+OR:L2TP
+
+Q:Which VPN topology allows home-workers and employees in the field to connect to the corporate network?
+O:Site-to-Site
+O:Intranet VPN
+OR:Client-to-Site
+O:Peer-to-Peer
+
+Q:What is a key feature of clientless VPNs that distinguishes them from traditional remote desktop products and client-to-site VPNs?
+O:They require a client app to operate.
+OR:They allow connection through a browser.
+O:They cannot handle audio.
+O:They use separate HTTP requests for communication.
+
+Q:How do gateways in a Site-to-Site VPN establish a secure connection?
+O:By using a public Wi-Fi network
+O:By using a shared password
+OR:By exchanging security information
+O:By sending a verification email
+
+Q:Which protocol is typically used for remote configuration of network appliances?
+O:SSH
+OR:FTP
+O:SNMP
+O:HTTP
+
+Q:What is the purpose of the scp command in SSH?
+O:To generate a new SSH key pair
+OR:To securely copy files between hosts
+O:To list files in the remote directory
+O:To change the SSH server's configuration
+
+Q:What is the purpose of the ssh-agent command?
+O:To restart the SSH server
+OR:To store private keys securely
+O:To change the default SSH port
+O:To generate new SSH keys
+
+Q:What is an SSH host key used for?
+O:Storing user passwords securely
+O:Speeding up the SSH connection process
+O:Encrypting all data sent over the network
+OR:Identifying the SSH server
+
+Q:Why is Telnet considered to be insecure?
+O:It uses strong encryption for all communications.
+OR:It transmits data in plain text.
+O:It automatically blocks access to port 23.
+O:It can only transmit text, not binary files.
+
+Q:What does Network Level Authentication (NLA) protect the RDP server against?
+O:On-path attacks
+O:Phishing attacks
+OR:Denial of service attacks
+O:SQL injection attacks
+
+Q:What is RDP Restricted Admin (RDPRA) Mode primarily used for?
+O:Allowing multiple users to share a single session
+O:Encrypting all RDP traffic with additional algorithms
+OR:Mitigating the risk of credential compromise
+O:Increasing the speed of remote connections
+
+Q:You are in the middle of a big project at work. All of your work files are on a server at the office.
+Q:You want to be able to access the server desktop, open and edit files, save the files on the server,
+Q:and print files to a printer that's connected to a computer at home.
+Q:Which protocol should you use?
+O:Telnet
+O:SSH
+O:FTP
+OR:RDP
+
+Q:What does the AUX port connect to for remote access?
+O:A fiber optic cable
+OR:An analog modem
+O:A wireless router
+O:A digital modem
+
+Q:Why is out-of-band management considered more secure than in-band management?
+O:It operates over the production network.
+O:It uses stronger encryption algorithms.
+O:It requires physical access to the device.
+OR:It is managed over a separate, dedicated channel.
+
+Q:What is a limitation of using virtual out-of-band management with VLANs?
+OR:It may still be compromised by a system-wide network failure.
+O:It does not support remote management.
+O:It can be implemented without any cost.
+O:It provides physical separation of management traffic.
+
+Q:What is the role of an ACL in the context of a jump box?
+O:To encrypt data transmissions
+O:To determine the bandwidth allocation
+OR:To list permissions for resource access
+O:To monitor network traffic
+
+Q:What is the role of an API in the context of a jump box and automation?
+O:To reduce the need for secure connections
+O:To manually monitor network traffic
+OR:To serve as an interface for automated scripting
+O:To act as a physical firewall
+
+Q:What is the benefit of using automation and orchestration in the context of a jump box?
+O:To manually configure appliances
+O:To reduce the need for secure connections
+O:To eliminate the need for a firewall
+OR:To configure appliances via scripts efficiently
+
+Q:How can a developer add a firewall rule via an API?
+O:By manually configuring it through the web console
+O:By sending an email request to the service provider
+OR:By creating a JSON formatted request and posting it to the API endpoint
+O:By calling the service provider's customer support
