@@ -160,25 +160,19 @@ function Paper(data){
 
 window.onload = function(){
 
-    fetch('./dd.json').then(response => response.json())
-        .then(function (data){
+    let paper = new Paper(qList);
 
-            let paper = new Paper(data);
+    document.getElementById("start").onclick = function(){
+        paper.startNewRound();
+    }
 
-            document.getElementById("start").onclick = function(){
-                paper.startNewRound();
-            }
+    document.getElementById("check").onclick = function(){
+        paper.checkAnswer();
+    }
 
-            document.getElementById("check").onclick = function(){
-                paper.checkAnswer();
-            }
-
-            document.getElementById("next").onclick = function(){
-                paper.next();
-            }
-        })
-
-
+    document.getElementById("next").onclick = function(){
+        paper.next();
+    }
 }
 
 
