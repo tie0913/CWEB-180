@@ -158,21 +158,20 @@ function Paper(data){
 
 
 
-window.onload = function(){
+import  {qList}  from './cnet-184.js';
 
-    let paper = new Paper(qList);
+let paper = new Paper(qList);
 
-    document.getElementById("start").onclick = function(){
-        paper.startNewRound();
-    }
+document.getElementById("start").onclick = function(){
+    paper.startNewRound();
+}
 
-    document.getElementById("check").onclick = function(){
-        paper.checkAnswer();
-    }
+document.getElementById("check").onclick = function(){
+    paper.checkAnswer();
+}
 
-    document.getElementById("next").onclick = function(){
-        paper.next();
-    }
+document.getElementById("next").onclick = function(){
+    paper.next();
 }
 
 
