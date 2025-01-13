@@ -1,3 +1,4 @@
+export const title = "CNET-184"
 export const qList = [
     {
         "text": "You are setting up a secure website for your online store. You want to ensure that all data transmitted between your website and your customers is encrypted.\nWhich of the following steps is essential for you to achieve this?\n",

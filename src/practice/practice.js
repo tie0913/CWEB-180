@@ -158,8 +158,8 @@ function Paper(data){
 
 
 
-import  {qList}  from './cnet-184.js';
-
+import  {qList, title}  from './cnet-184.js';
+document.title = title;
 let paper = new Paper(qList);
 
 document.getElementById("start").onclick = function(){
