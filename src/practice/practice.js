@@ -158,21 +158,44 @@ function Paper(data){
 
 
 
-import  {qList, title}  from './cnet-184.js';
-document.title = title;
-let paper = new Paper(qList);
+//import  {qList, title}  from './cnet-184.js';
 
-document.getElementById("start").onclick = function(){
-    paper.startNewRound();
-}
 
-document.getElementById("check").onclick = function(){
-    paper.checkAnswer();
-}
+const param = new URLSearchParams(window.location.search)
 
-document.getElementById("next").onclick = function(){
-    paper.next();
-}
+const courseCode = param.get("course")
+const chapterName = param.get("chapter")
+
+const courseFilePath = "./courses/" + courseCode + ".js"
+
+import(courseFilePath).then(resp => {
+    document.title = resp.title + " - " + chapterName;
+    let questionList = []
+    const chapterList = resp.chapterList
+    for(let i = 0, len = chapterList.length; i < len; i++){
+        const chapterObj = chapterList[i]
+        if(!chapterName){
+            questionList.push(...chapterObj.questionList)
+        }else if(chapterObj.chapterName === chapterName){
+            questionList.push(...chapterObj.questionList)
+            break
+        }
+
+    }
+    let paper = new Paper(questionList);
+    document.getElementById("start").onclick = function(){
+        paper.startNewRound();
+    }
+
+    document.getElementById("check").onclick = function(){
+        paper.checkAnswer();
+    }
+
+    document.getElementById("next").onclick = function(){
+        paper.next();
+    }
+
+})
 
 
 
