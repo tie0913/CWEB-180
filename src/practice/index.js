@@ -3,6 +3,9 @@
 const courseList =[{
     "name":"COOS-190",
     "chapter_list":["chapter_1", "chapter_2"]
+},{
+    "name":"COSA-190",
+    "chapter_list":["chapter_1"]
 }]
 
 let courseSelect = document.getElementById("course_select")
